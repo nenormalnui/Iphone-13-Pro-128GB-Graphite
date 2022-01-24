@@ -1,29 +1,3 @@
-/*const accordeon = () => {
-    const CharacteristicsItems = document.querySelectorAll('.characteristics__item')
-    CharacteristicsItems.forEach(item => {
-        const CharacteristicsButton = item.querySelector('.characteristics__title')
-        const CharacteristicsContent = item.querySelector('.characteristics__description')
-
-        CharacteristicsButton.addEventListener('click', () => {
-
-            if(CharacteristicsContent.classList.contains('open')) {
-
-                
-                CharacteristicsContent.style.height = ''
-
-            } else {
-
-                CharacteristicsContent.style.height = CharacteristicsContent.scrollHeight + 'px'
-            }
-
-            CharacteristicsButton.classList.toggle('active')
-            CharacteristicsContent.classList.toggle('open')
-        })
-
-    })
-}
-
-accordeon()*/
 const accordeon = () => {
     const CharacteristicsItems = document.querySelectorAll('.characteristics__item');
 
