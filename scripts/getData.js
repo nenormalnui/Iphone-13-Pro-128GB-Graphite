@@ -43,7 +43,7 @@ const getData = () => {
     }
 
     const getGoods = () => {
-        fetch('https://test-4f4d7-default-rtdb.firebaseio.com/db.json')      //1 запрашивает данные, из файла json
+        fetch('./cross-sell-dbase/dbase.json')      //1 запрашивает данные, из файла json
         .then((response) => {
             if(response.ok) {
                 return response.json()                          // ждет момента когда сервер отдаст данные отрабатывает методы ниже 
